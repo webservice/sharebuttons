@@ -19,7 +19,7 @@ const whatsappBtn = document.querySelector(".wp");
 const linkedinBtn = document.querySelector(".ln");
 
 function init() {
-    const postTitle_ = document.querySelector("[name=title]");
+    const postTitle_ = document.querySelector("meta[property='og:title']");
 
     let postUrl = encodeURI(document.location.href);
     let postTitle = encodeURI(postTitle_.getAttribute('content'));
