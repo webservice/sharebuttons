@@ -3,7 +3,7 @@
 ### Add header section
 ```
 <link rel="stylesheet" href="./dist/share-button-style.css">
-<script src="./dist/share-buttons.js"></script>
+<script type="text/javascript" src="./dist/share-buttons.js"></script>
 ```
 
 ### Add body section
